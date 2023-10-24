@@ -9,7 +9,7 @@ export default function SideMenu() {
   return (
     <>
       <Drawer variant='permanent' open={open} anchor='left' sx={{ opacity: open ? 0 : 1 }}>
-        <Box sx={{ height: '100%', display: 'flex' , flexWrap: 'wrap', flexDirection: 'column', gap: '10px', bgcolor: '#32a8a2'}}>
+        <Box sx={{ height: '100%', display: 'flex' , flexWrap: 'wrap', flexDirection: 'column', gap: '10px', bgcolor: '#0ca5b0'}}>
           <Button onClick={openMenu}>
             Menu
           </Button>
