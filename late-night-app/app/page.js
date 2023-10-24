@@ -1,11 +1,10 @@
 'use client'
-import styles from './page.module.css'
 import { Paper, Box, Typography } from '@mui/material'
 import SideMenu from './sideMenu'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main>
       <SideMenu/>
 
       <Box sx={{ display: "flex" , flexWrap: "wrap", gap: "10px"}}>
